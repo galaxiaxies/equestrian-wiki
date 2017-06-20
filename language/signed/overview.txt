@@ -1,0 +1,20 @@
+﻿table of contents
+[1] introduction
+[2] alphabet
+[3] grammar
+    [3.1] syntax
+    [3.2] morphology
+[4] notation
+[5] examples
+[6] lexicon
+
+[1] introduction
+[2] alphabet
+    the alphabet for esl is the same as equestrian. while vowels are not marked in equestrian, esl does have individual signs for each vowel.
+    b d d͡j d͡z f g h i j k m n o p r s t t͡s t͡ʃ u v w z œ ɑ ɥ ɪ ɫ ʃ ʙ
+[3] grammar
+    [3.1] syntax
+    [3.2] morphology
+[4] notation
+[5] examples
+[6] lexicon
