@@ -2,27 +2,40 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<title>index cause github is strange?</title>
-	<link rel="stylesheet" type="text/css" href="../lib/main.css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script type="text/javascript">
-        function tocToggle() {
-            if ($("#toc-list").css('display') === 'block') {
-                $("#toc-toggle").html('show');
-            } else {
-                $("#toc-toggle").html('hide');
-            }
-            $("#toc-list").toggle();
-        }
-    </script>
+    <meta charset="utf-8">
+    <title>Equestrian Wiki</title>
+    <link rel="stylesheet" type="text/css" href="lib/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript" defer></script>
+    <script src="lib/scripts/toc-toggle.js" type="text/javascript" defer></script>
 </head>
 
 <body>
-    <ul>
-        <li><a href="history/lore.html">history</a></li>
-        <li><a href="language/signed/overview.html">sign language</a></li>
-    </ul>
+    <div id="container">
+        <div id="content">
+            <section id="top">
+                <menu id="toc">
+                    <span class="center"><b>Contents</b> [<a onclick="tocToggle()" id="toc-toggle">hide</a>]</span>
+                    <ul id="toc-list">
+                        <li><span class="toc-num"> 1</span>History</li>
+                        <li><span class="toc-num ind-1"> 1.1</span><a href="wiki/Timeline_of_Equestrian_History.html">Timeline of Equestrian history</a></li>
+                        <li><span class="toc-num ind-1"> 1.2</span><a href="lib/templates/timeline_template.html">Timeline template</a></li>
+                        <li><span class="toc-num"> 2</span>Dictionary</li>
+                        <li><span class="toc-num ind-1"> 2.2</span><a href="lib/templates/dictionary_template.html">Dictionary Template</a></li>
+                        <li><span class="toc-num"> 3</span>Language</li>
+                        <li><span class="toc-num ind-1"> 3.1</span><a href="wiki/Equestrian_Sign_Language_(ESLl).html">Equestrian sign language (ESL)</a></li>
+                    </ul>
+                </menu>
+            </section>
+        </div>
+        <menu id="side">
+            <span id="logo">
+				<a href="index.html"><img src="lib/logo.svg"></a>
+			</span>
+            <span id="links">
+				<a href="index.html">Main page</a>
+			</span>
+        </menu>
+    </div>
 </body>
 
 </html>
