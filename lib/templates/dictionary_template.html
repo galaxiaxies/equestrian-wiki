@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Equestrian Wiki | Template</title>
+	<link rel="stylesheet" type="text/css" href="../main.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript" defer></script>
+	<script src="../scripts/toc-toggle.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+	<div id="container">
+		<div id="content">
+			<h1>Template</h1>
+			<hr><br>
+			<div id="article">
+				<section id="top"> 
+					<span id="see-also" class="ind-1"><i>See also:</i></span><br>
+					<menu id="toc">
+						<p class="center"><b>Contents</b> [<a onclick="tocToggle()" id="toc-toggle">hide</a>]</p>
+						<ul id="toc-list">
+							<li><span class="toc-num"> 1</span><a href="#sect-1">Section 1</a></li>
+							<li class="ind-1"><span class="toc-num">1.1</span><a href="#1-sub-1">Sub Section 1</a></li>
+							<li><span class="toc-num"> 2</span><a href="#sect-2">Section 2</a></li>
+						</ul>
+					</menu>
+				</section><br>
+				<section id="sect-1" class="article">
+					<h2>Section 1</h2>
+					<hr><br>
+                    <p>Section 1</p><br>
+                    <span id="1-sub-1" class="header">Subsection 1</span><br><br>
+                    <p>Subsection 1</p>
+				</section><br>
+				<section id="sect-2" class="article">
+					<h2>Section 2</h2>
+					<hr><br>
+                    <p>Section 2</p>
+				</section><br>
+			</div>
+		</div>
+		<menu id="side">
+			<span id="logo">
+				<a href="../../main.html"><img src="../logo.svg"></a>
+			</span>
+			<span id="links">
+				<a href="../../main.html">Main page</a>
+			</span>
+		</menu>
+	</div>
+</body>
+
+</html>
